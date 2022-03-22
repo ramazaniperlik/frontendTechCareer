@@ -1,0 +1,134 @@
+/* comment yazacağımız alan */
+*{
+    box-sizing: border-box ;
+}
+.paragrafClass{
+    background: black;
+    color:white;
+    font-size: 25px;
+    /* padding:20px 40px 60px 80px; */
+    /* padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 40px; */
+    padding:25px 100px;
+}
+#div_css{
+    background-color: #000000;
+    color:rgba(255,255,255,1);
+    height: 200px;
+    /* width: 180px; */
+    width:24%;
+    display:inline-block;
+    border:5px solid rgba(94,185,19);
+    margin-bottom: 2px;
+    /* border-radius: 50%; */
+    /* box-sizing: border-box; */
+    font-family: 'Hubballi', cursive;
+    /* text-align: justify; */
+    text-align: center;
+}
+
+.p1{
+    text-indent: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+
+    column-rule: 1px solid rgba(0,0,0,.2);
+    -webkit-column-rule: 1px solid rgba(0,0,0,.2);
+    -moz-column-rule: 1px solid rgba(0,0,0,.2);
+}
+.float_div{
+    color:black;
+    display:inline-block;
+    width:24%;
+    background-color:orange;
+    height:150px;
+    font-size:25px;
+    float:left; 
+}
+
+.clearfix-auto::before{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+ul{
+    margin-left:25px;
+    list-style-type: none; 
+    text-decoration:none;
+}
+ul li{
+    background-color: red;
+    margin-top: 8px;
+    color:white;
+    text-transform: uppercase;
+    cursor:pointer;
+    padding:5px;
+}
+ul li:hover{
+    background-color: white;
+    margin-top: 8px; 
+    color:red;
+    text-transform: lowercase;
+    cursor:pointer;
+    padding:5px;
+}
+h1::after{
+content:"...";
+}
+#special::first-letter{
+text-transform: uppercase;
+font-size: 55px;
+}
+#special:hover{
+    text-shadow: .6px .5px rgba(0,0,0, .4);
+    cursor:pointer;
+}
+#div_css:hover{
+    background-color: white;
+    color:rgba(0,0,0,1);
+    box-shadow: -1px 2px 30px 3px rgba(0,0,0,.9);
+    width:26%;
+    /* transition: width 2s; */
+    transition: all 1s;
+    transform:rotate(-10deg);
+}
+header{
+    background-image:url(../img/tree-g3aa24dbf0_1920.jpg);
+    height:95vh;
+    background-position: left;
+    background-size: cover;
+}
+
+/* media query */
+
+@media screen and (min-width:600px){
+
+    #responsive_tag{
+        background-color:red;
+        color:green;
+    }
+}
+
+@media screen and (min-width:800px){
+
+    #responsive_tag{
+        background-color: black;
+        color:yellow;
+    }
+
+}
+@media screen and (min-width:1200px){
+
+    #responsive_tag{
+        background-color: green;
+        color:chocolate;
+    }
+
+}
