@@ -75,4 +75,4 @@
 // }
 // console.log("Toplamları:"+ sum);
 // }
-// sum();
+// sum(); 
