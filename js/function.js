@@ -76,3 +76,11 @@
 // console.log("Toplamları:"+ sum);
 // }
 // sum(); 
+
+// let sayi1= 11;
+// let sayi2 = 22;
+// let sonuc = sayi1 + sayi2;
+// console.log(sonuc);
+
+let tarih= new Date();
+console.log(tarih);

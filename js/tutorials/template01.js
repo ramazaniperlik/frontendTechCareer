@@ -46,3 +46,42 @@
 // var string = "Hello world";
 // console.log(string.split(" "));
 
+// let kelime = ()=>{
+//     let dizi = ['Html','Css','Js','a','b','c','d'];
+//     let dizi2 =['Bootstrap'];
+//     console.log(dizi.join('-'));
+//     // console.log(dizi.concat('dizi2'));
+//     // console.log(dizi.unshift('1'));
+//     console.log(dizi);
+//     dizi.splice(0,2);
+//     console.log(dizi);
+//     dizi.unshift('yeni');
+//     console.log(dizi);
+// }
+// kelime();
+
+//monad yapısı
+// function diziBaslangic(){
+//     let dizi = [1,2,3];
+//     return dizi;
+// }
+// function diziVeriAl(temp){
+//     console.log(temp);
+// } 
+
+// diziVeriAl(diziBaslangic());
+
+let objectFunction= ()=>{
+    let object = {
+    name:"Ramazan",
+    surname:"İperlik",
+    bornYear: Number(1995),
+    age: function(age){
+        return new Date().getFullYear() - age; 
+    },
+};
+console.log(object.age(object.bornYear));
+object.job ="Computer Engineer";
+console.log(object);
+}
+objectFunction();
