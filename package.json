@@ -1,0 +1,31 @@
+{
+  "name": "techcareer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"live-server public",
+    "babel" : "npx babel src/app.js --out-file=public/app.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramazaniperlik/frontendTechCareer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramazaniperlik/frontendTechCareer/issues"
+  },
+  "homepage": "https://github.com/ramazaniperlik/frontendTechCareer#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
